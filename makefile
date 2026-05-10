@@ -30,8 +30,8 @@ hf-login:
 	hf auth login --token $(HUGGING_FACE)
 
 push-hub:
-	hf upload khweziii/CICD-for-Machine-Learning ./app --repo-type=space --commit-message="Sync App files"
-	hf upload khweziii/CICD-for-Machine-Learning ./model /model --repo-type=space --commit-message="Sync Model"
-	hf upload khweziii/CICD-for-Machine-Learning ./results /metrics --repo-type=space --commit-message="Sync Results"
+	hf upload Khwezi27/DrugClassification ./App --repo-type=space --commit-message="Sync App files"
+	hf upload Khwezi27/DrugClassification ./Model /Model --repo-type=space --commit-message="Sync Model"
+	hf upload Khwezi27/DrugClassification ./Results /Metrics --repo-type=space --commit-message="Sync Results"
 
 deploy: hf-login push-hub

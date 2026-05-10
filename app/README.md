@@ -1,14 +1,11 @@
----
-title: Drug Classification
-emoji: 👁
-colorFrom: blue
-colorTo: red
+title: DrugClassification
+emoji: 📊
+colorFrom: green
+colorTo: purple
 sdk: gradio
-sdk_version: 6.9.0
+sdk_version: 6.14.0
+python_version: '3.13'
 app_file: app.py
 pinned: false
 license: apache-2.0
-short_description: This space will be used to deploy a drug classification app
----
-
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+short_description: Demo for drug classification web app
