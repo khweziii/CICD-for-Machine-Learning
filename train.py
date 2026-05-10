@@ -12,7 +12,7 @@ import skops.io as sio
 import numpy as np
 
 
-drug_df = pd.read_csv("Data/drug200.csv")
+drug_df = pd.read_csv("data/drug200.csv")
 drug_df = drug_df.sample(frac=1)
 
 X = drug_df.drop("Drug", axis=1).values
